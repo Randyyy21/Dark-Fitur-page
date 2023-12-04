@@ -1,0 +1,117 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+}
+
+/*default*/
+body {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+/*darkmode body*/
+.darkMode {
+    background-color: black;
+    color: white;
+}
+
+/*mode sky body*/
+.skuyMode {
+    background-color: aqua;
+    color: white;
+}
+
+/*mode unlimited body*/
+.unMode {
+    background-color: rgb(194, 138, 35);
+    color: rgb(255, 255, 255);
+}
+
+/*darkmode navbar light*/
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding: 10px;
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+    text-shadow: 1px 1px white;
+}
+
+/*darkmode navbar hover light*/
+#navbar a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 14px;
+    pointer-events: painted;
+    transition: .4s ease-in-out;
+}
+
+/*darkmode navbar gelap*/
+#navbar.navbarDark {
+    background-color: white;
+    color: white;
+    font-weight: 20;
+    text-shadow: 1px 1px black;
+}
+
+
+/*darkmode navbar hover gelap*/
+#navbar.navbarDark a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 14px;
+    pointer-events: painted;
+    transition: .4s ease-in-out;
+}
+
+/*modeskuy navbar baru*/
+#navbar.navbarSkuy{
+    background-color: rgb(100, 100, 190);
+    color: rgb(150, 68, 68);
+    font-weight: 20;
+    text-shadow: 1px 1px black;
+}
+
+/*modeskuy navbar hover*/
+#navbar.navbarSkuy a:hover {
+    background-color: rgb(117, 192, 136);
+    color: rgb(214, 187, 136);
+    pointer-events: painted;
+    font-weight: 20;
+    text-shadow: 1px 1px black;
+}
+
+/*modeskuy navbar baru*/
+#navbar.navbarUn{
+    background-color: rgb(100, 100, 190);
+    color: black;
+    font-weight: 20;
+    text-shadow: 1px 1px black;
+}
+
+/*modeskuy navbar hover*/
+#navbar.navbarUn a:hover {
+    background-color: rgb(117, 192, 136);
+    color: rgb(214, 187, 136);
+    pointer-events: painted;
+    font-weight: 20;
+    text-shadow: 1px 1px black;
+}
+
+
+nav a {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:silver;
+    padding: 15px;
+}
+
+
+
+
+
+
