@@ -1,6 +1,4 @@
-Tugas Bab 6 src = "https://www.youtube.com/@deaafrizal"
-
-dark mode codingan sederhana dari dark mode jika ingin di perbaiki saya ucapkan terima kasih. Mohon maaf jika codingan saya aneh. Menggunakan HTML CSS DAN JAVASCRIPT
+dark mode codingan sederhana dari dark mode jika ingin di perbaiki saya ucapkan terima kasih. Menggunakan HTML CSS DAN JAVASCRIPT
 
 BAGAIMANA CARA MENGGUNAKANNYA?
 
